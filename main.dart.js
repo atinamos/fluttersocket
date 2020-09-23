@@ -38966,7 +38966,7 @@ F.nI.prototype={
 aM:function(){return new F.pY(new D.wP(C.x_,new P.cb(t.V)),C.n)}}
 F.pY.prototype={
 aX:function(){this.be()},
-tk:function(){var s=this,r=$.QW().w7("http://127.0.0.1:3000","/chat","userId=21031",s.gGq())
+tk:function(){var s=this,r=$.QW().w7("https://fluttersocket.atinamos.dev","/chat","userId=21031",s.gGq())
 s.f=r
 r.j8()
 s.f.h4(0,"socket_info",s.gFk())
@@ -38993,7 +38993,7 @@ F.O6.prototype={
 $0:function(){this.a.tk()},
 $S:0}
 F.O7.prototype={
-$0:function(){var s=this.a,r=$.QW().w7("http://127.0.0.1:3000","/map","userId=21031",s.gGs())
+$0:function(){var s=this.a,r=$.QW().w7("http://fluttersocket.atinamos.dev","/map","userId=21031",s.gGs())
 s.r=r
 r.j8()
 s.r.h4(0,"socket_info",s.gFm())
